@@ -1,0 +1,208 @@
+.topnav {
+    background-color: rgb(145, 25, 137);
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: rgb(11, 46, 105);
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #d72590;
+    color: white;
+  }
+  .home-section{
+    width: 75.895%;
+    height: 100vh;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    opacity: 0.7;
+    transition: 1s;
+    background-color: #fceec5;
+}
+
+.hero-heading{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.home-img{
+    position: absolute;
+    top: 0;
+    right:0 ;
+    height: 100vh;
+    width: 50%;
+    object-fit: cover ;
+    opacity:0.9;
+   
+}
+.home-section{
+    /* previous styles */
+    position: fixed;
+}
+.home-section.active,
+.project-section.active,
+.about-section.active,
+.contact-section.active{
+    position: relative;
+    opacity: 1;
+    z-index: 8;
+}
+.aboutme{
+    font-family: 'poppins',sans-serif;
+    background-color: rgb(50, 12, 62);
+}
+.aboutme .title{
+    position: relative;
+    font-family:'ubuntu',sans-serif;
+    color: #f1377b;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.aboutme .about-content{
+display: flex;
+flex-wrap:wrap;
+align-items: center;
+justify-content: space-between;
+background-color: #efe280;
+}
+.aboutme .about-content .left{
+    width: 45%;
+}
+.aboutme .about-content .left img{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.aboutme .about-content .right {
+  width:55%;
+}
+.aboutme .about-content .right .text{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color:rgb(169, 27, 105);
+    
+}
+.aboutme .about-content .right .textwithin{
+    font-size: 20px;
+    font: weight 400px;;
+    color:rgb(169, 27, 105);
+    text-align:left;
+}
+.skills{
+    background-color: #5e1282;
+}
+.skills-heading{
+    color: #500822;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 0.5rem;
+    padding: 0.5rem 80px;
+    font-size: 1.2rem;
+}
+.skill-box{
+    padding: 1rem;
+color: #400c67;
+cursor: pointer;
+}
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.skill-img{
+width: 130px;
+height: 130px;
+position: relative;
+border-radius: 45px;
+background-color: rgb(255, 255, 255);
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+.skill-icon{
+    width: 100px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.name{
+    width: 50vh;
+    height: 90px;
+}
+.button{
+    background: #3f6481;
+color: #fff;
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 5px 5px 5px #eee;
+text-shadow: none;
+width: 120px;
+height: 40px;
+}
+.button:hover{
+background: #016ABC;
+color: #fff;
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 5px 5px 5px #eee;
+text-shadow: none;
+}
+.project-contain{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+}
+.img-pro{
+    height:50vh;
+    width: 50vh;
+}
+.textwithin {
+    text-align:left;
+    
+}
+.copyright{
+    text-align: center;
+    text-decoration: solid;
+    
+}
+.contact .contact-left{
+    width:45%;
+}
+.contact .contact-right{
+    width:55%;
+}
